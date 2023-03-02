@@ -16,5 +16,30 @@ namespace troca_de_imagem
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.pictureBoxMostrar.Visible = true;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.pictureBoxMostrar.Visible=false;
+        }
+
+        private void pictureBoxCafe_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonMostrar_Click(object sender, EventArgs e)
+        {
+            this.pictureBoxCafe.Visible=true;
+        }
+
+        private void buttonApagar_Click(object sender, EventArgs e)
+        {
+            this.pictureBoxCafe.Visible= false;
+        }
     }
 }
